@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="sports apparel">
+    <meta name="keywords" content="sports, apparel, jersey, shorts, shoes, basketball">
+    <meta name="author" content="Kris Tagaro">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peak Performance Sports Apparel</title>
+    <link rel="icon" href="image/logo.png" type="image/x-icon">
+    
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--External CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--Header starting-->
+    <header class="sticky-top">
+    
+    <!--Top Header-->
+    <div class="top-header">
+      <div class="head-right text-light">
+        Free shipping nationwide
+      </div>        
+      <div class="head-left">
+        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+   
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg" style="background: white;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home.html">PeakPerformance</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="Login.html"><i class="fa-solid fa-image-portrait"></i> Log-in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sale</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ancfooter">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Jerseys.html">Jerseys</a></li>
+                  <li><a class="dropdown-item" href="Shorts.html">Shorts</a></li>
+                  <li><a class="dropdown-item" href="Shoes.html">Shoes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Best Sellers</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+          </div>
+      </div>
+    </nav>
+
+    <!--CART-->
+    <div class="cart container-fluid" style="background: transparent;">
+      <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+        <i class="fa-solid fa-bag-shopping" style="width: 50px; font-size: x-large;"></i>
+      </button>
+        
+      <!--Offcanvas-->
+      <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <h3 class="offcanvas-title text-light" id="staticBackdropLabel">CART</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="text-center">
+            CART is empty
+          </div>
+        </div>
+        <div class="offcanvas-footer text-center">
+          <a href="Checkout.html"><button type="button" class="cart-check">Proceed to Checkout</button></a>
+        </div>
+      </div>
+    </div>
+    
+    </header>
+    <!--Header closing-->
+
+    <!--LANDING PAGE-->
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-6 left-side">
+          <div class="row">
+            
+            <!--IMAGE LEFT-->
+            <div class="col-12 up-side">
+            </div>
+            
+            <!--CALL TO ACTION-->
+            <div class="col-sm-12 down-side">
+                  <div class="card" style="border: none; margin-top: 40px;">
+                    <div class="card-body">
+                      <p class="card-text">YOUR <span class="text-danger">#1</span></p>
+                      <p class="card-text">SOURCE OF</p>
+                      <p class="card-text">SPORTS APPAREL</p>
+                      <p>Inclusive fitness. Exclusive quality.</p>
+                      <div class="btn-hover">
+                      <a href="#order" class="btn btn-danger btn-shape">SHOP NOW</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!--IMAGE RIGHT-->
+        <div id="carouselExampleSlidesOnly" class="col-6 carousel slide" data-bs-ride="carousel" style="padding-left: 0; padding-right: 0;">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="right-side"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="right-side1"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="right-side2"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <!--LANDING PAGE-->
+
+    <!--SALE-->
+    <div class="container-fluid sale-part">
+      <div class="row">
+        <!--WHAT WE OFFER-->
+        <div class="col-6 left2-side">
+          <h1>WHAT WE OFFER</h1>
+          <p class="text-danger"><i class="fa-solid fa-arrow-right-long"></i> FREE SHIPPING NATIONWIDE</p>
+          <p class="text-danger"><i class="fa-solid fa-arrow-right-long"></i> 24/7 AVAILABILITY</p>
+          <p class="text-danger"><i class="fa-solid fa-arrow-right-long"></i> BEST PRICES GUARANTEED</p>
+        </div>
+        <!--SALE CALL TO ACTION-->
+        <div class="col-6 right2-side">
+          <h1>UP TO 15% OFF</h1>
+          <p class="text-light">Deals made especially for you</p>
+          <div class="btn-hover">
+          <a href="#" class="btn btn-danger btn-shape">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--CATEGORY-->
+    <div class="container-fluid category-part" id="order">
+      <h1 class="text-end text-light">
+        SHOP BY CATEGORY
+      </h1>
+
+      <!--JERSEYS-->
+      <div class="row">
+        <div class="col-sm-4 g-5">
+          <div class="card">
+            <div class="card-body jersey btn-hover">
+              <a href="Jerseys.html" class="btn btn-danger btn-shape">JERSEYS</a>
+            </div>
+          </div>
+        </div>
+        <!--SHORTS-->
+        <div class="col-sm-4 g-5">
+          <div class="card">
+            <div class="card-body shorts btn-hover">
+              <a href="Shorts.html" class="btn btn-danger btn-shape">SHORTS</a>
+            </div>
+          </div>
+        </div>
+        <!--SHOES-->
+        <div class="col-sm-4 g-5">
+          <div class="card">
+            <div class="card-body shoes btn-hover">
+              <a href="Shoes.html" class="btn btn-danger btn-shape">SHOES</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--FOOTER-->
+    <footer id="ancfooter">
+      <div class="container-fluid" style="padding-top: 20px;">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-title">
+              <h1>PeakPerformance</h1>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-light" style="padding-right: 50px;">
+            <h5 class="footer-div">SUBSCRIBE</h5>
+            <br>
+            <p>Subscribe to our newsletter and be among the first to hear about new arrivals and special offers</p>
+            
+            <form action="#">
+            <div class="mb-3">
+              <label for="newsletter" class="form-label">Email address:</label>
+              <input type="email" class="form-control newsletter" id="newsletter" placeholder="name@email.com">
+              <button class="btn btn-outline-dark" type="submit">Subscribe</button>
+            </div>
+            </form>
+          
+          </div>
+          <div class="col-lg-2 col-sm-6 text-light address">
+            <h5 class="footer-div">ADDRESS</h5>
+            <br><br><br>
+            <p>23 Michael Jordan Street</p>
+            <p>Quezon City, PH 1107</p>
+            <p>0917 123 4567</p>
+            <p>info@mysite.com</p>
+          </div>
+          <div class="col-lg-2 col-sm-6 text-light menu-footer">
+            <h5 class="footer-div">MENU</h5>
+            <br><br><br>
+            <a href="#"><p>Sale</p></a>
+            <a href="Jerseys.html"><p>Jerseys</p></a>
+            <a href="Shorts.html"><p>Shorts</p></a>
+            <a href="Shoes.html"><p>Shoes</p></a>
+            <a href="#"><p>FAQ</p></a>
+            <a href="#"><p>Terms & Conditions</p></a>
+            <a href="#"><p>Privacy Policy</p></a>
+            <a href="#"><p>Shipping Policy</p></a>
+            <a href="#"><p>Refund Policy</p></a>
+            <a href="#"><p>Cookie Policy</p></a>
+          </div>
+        </div>
+
+      </div>
+      <div class="soc-footer" style="padding-left: 20px;">
+        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+      <p class="text-light" style="padding-left: 20px;">&#169 2022 PeakPerformance, Inc. All rights reserved. | Designed & developed by Kris Tagaro </p>
+    </footer>
+   
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/b59098f6cf.js" crossorigin="anonymous"></script>
+
+    <!--Login Form-->
+    <script src="loginform.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
